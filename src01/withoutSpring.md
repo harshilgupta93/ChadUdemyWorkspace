@@ -1,0 +1,1 @@
+without spring we need to hard code MyApp file to change the class.

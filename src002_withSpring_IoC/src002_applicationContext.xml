@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<!-- By ONLY Changing the configuration file, the output will be changed  -->
+	<!-- No need to hard code the class file -->
+
+
+	<!-- Below bean, For First Output -->
+	<bean id="myCoach"
+		  class="com.luv2code.spring._002_withSpringI_IoC.CricketCoach">
+	</bean>
+	
+	
+	<!-- Below bean, For Second Output -->
+	<!-- <bean id="myCoach"
+		  class="com.luv2code.spring._002_withSpringI_IoC.BaseballCoach">
+	</bean> --> 
+ 
+
+</beans>

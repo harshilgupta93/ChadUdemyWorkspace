@@ -5,5 +5,15 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
+	
+	<!-- Due to Bean Scope is "Prototype", destroy-method won't be executed -->
+
+	<bean id="myCoach"
+		  class="com.luv2code.spring._011_BeanScopePrototype_init_destroy.BaseballCoach"
+		  scope="prototype"
+		  init-method="postConstructMethodYoYO"
+		  destroy-method="preDestroyMethodYeYe">
+	</bean>
+	
 
 </beans>

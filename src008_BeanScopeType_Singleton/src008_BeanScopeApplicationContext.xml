@@ -5,5 +5,19 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
+	<!-- By Default Scope type of the Bean is Singleton  -->
+
+	<bean id="myCoach"
+		  class="com.luv2code.spring._008_BeanScopeType_Singleton.BaseballCoach">
+	</bean>
+	
+	<!-- You may mention Scope type Singleton manually as: -->
+	<!-- 
+		<bean id="myCoach"
+			  class="com.luv2code.spring.BaseballCoach"
+			  scope="singleton">
+		</bean>
+	-->
+	
 
 </beans>

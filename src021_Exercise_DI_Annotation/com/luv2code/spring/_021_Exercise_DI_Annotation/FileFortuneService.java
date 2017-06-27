@@ -24,7 +24,7 @@ public class FileFortuneService implements FortuneService {
 		
 		String fileName = "/home/me/Desktop/chadSpring/DevEnv/ChadUdemyWorkspace/SpringCore/src021_Exercise_DI_Annotation/fileName.txt";
 		System.out.println("Reading Fortune from File: " + new File(fileName));
-		System.out.println("File Exists: " + new File(fileName));
+		System.out.println("File Exists: " + new File(fileName).exists());
 		
 		try(BufferedReader br = 
 				new BufferedReader(

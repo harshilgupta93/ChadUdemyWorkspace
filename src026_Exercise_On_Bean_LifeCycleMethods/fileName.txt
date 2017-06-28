@@ -1,0 +1,6 @@
+[FileFortuneService] 1st Fortune .... !
+[FileFortuneService] 2nd Fortune .... !
+[FileFortuneService] 3rd Fortune .... !
+[FileFortuneService] 4th Fortune .... !
+[FileFortuneService] 5th Fortune .... !
+[FileFortuneService] 6th Fortune .... !

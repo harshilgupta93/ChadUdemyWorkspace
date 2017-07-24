@@ -1,24 +1,24 @@
-package com.luv2code.spring._028_PureJava_SpringConfig_IoC_and_ObjectDI;
+package com.luv2code.spring._027_SpringConfig_In_JAVA_withAnnotation;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class src028_SpringDemoApp {
+public class src027_HelloSpringDemoApp {
 
 	public static void main(String[] args) {
-
-		// Load Spring Configuration CLASS
+		
+		// Load Spring Configuration Class
 		AnnotationConfigApplicationContext context = 
 				new AnnotationConfigApplicationContext(SpringConfig.class);
 		
 		// Retrieve Bean from Spring Container
 		Coach theCoach = context.getBean("baseballCoach", Coach.class);
 		
-		// Use Methods of class using Bean
+		// Call methods of class using bean
 		System.out.println(theCoach.getDailyWorkout());
-		System.out.println(theCoach.getDailyFortune());
 		
-		// Close the Context
+		// Close the context
 		context.close();
+
 	}
 
 }
